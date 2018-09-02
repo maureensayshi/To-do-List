@@ -3,6 +3,8 @@ import PropTypes from "prop-types";
 
 class Form extends Component{
   render(){
+    const { inputValue } = this.props;
+    const inEnabled = inputValue.length > 0;
     return (
       <div className="formContainer">
         <form onSubmit={(e) => this.props.handleSubmit(e)}>
@@ -12,7 +14,7 @@ class Form extends Component{
             value={this.props.inputValue}
             placeholder="Enter your task here ......"
           />
-          <input type="submit" value="" / >
+          <input disabled={!inEnabled} type="submit" value="" / >
         </form>
       </div>
     );
