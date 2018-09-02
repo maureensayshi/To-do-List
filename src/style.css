@@ -4,7 +4,7 @@
 
 .appContainer {
   background-image: linear-gradient(to top left, #957FEF, #E096FC, #F6C0FC, pink);
-  padding-bottom: 10%;
+  padding-bottom: 20%;
   display: flex; justify-content: center; 
 }
 
@@ -43,6 +43,7 @@
   border-radius: 50%;
   border: none; 
   background: pink no-repeat center/20px url("./img/add.png");
+  cursor: pointer;
 }
 
 .tabContainer{ flex: none; width: 100%;  
@@ -53,7 +54,7 @@
     font-size: 25px;
     font-family: "Open Sans", sans-serif;
     border: none;
-    padding: 30px 119.25px 30px 119.5px;
+    padding: 30px 118.75px 30px 118.75px;
     margin-bottom: -1px;
     text-decoration: none;
     background: #E9EBF8;
@@ -72,7 +73,7 @@
     font-size: 25px;
     font-family: "Open Sans", sans-serif;
     border: none;
-    padding: 30px 115px 30px 120px;
+    padding: 30px 118.75px 30px 118.75px;
     margin-bottom: -1px;
     text-decoration: none;
     background: #FFFFFF;
@@ -116,6 +117,7 @@
 	padding: 9px;
 	border-radius: 50%;
   outline: 0;
+  cursor: pointer;
 }
 
 .taskContainer input:checked{
@@ -156,4 +158,6 @@
   flex: none; width: 35px; height: 35px; padding: 9px; 
   border-radius: 50%; border: 2px solid #cacece;
   background: no-repeat center/20px url("./img/delete.png");
+  cursor: pointer;
+  outline: 0;
 }
