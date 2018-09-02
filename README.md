@@ -1,3 +1,3 @@
-# Writing a to-do list with React.js and Webpack
+# a to-do list using React.js and Webpack ( without create-react-app )
 
 [click here to try it](https://maureensayshi.github.io/to_do_list/dist/index.html)
