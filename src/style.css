@@ -30,10 +30,13 @@
   font-family: "Open Sans", sans-serif, "Microsoft JhengHei";
   color: #6D6969;
   border-top:none; border-left:none; border-right:none; border-bottom: 1px solid grey;
-  background: none;
+  background: transparent;
   outline: 0;
   -webkit-appearance: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
   -moz-appearance: none;
+  -moz-box-shadow: none;
   cursor: text;
 }
 
