@@ -4,7 +4,7 @@ export default class Ranking extends Component {
   render() {
     return (
       <div>
-        this is Ranking
+        <p>this is Ranking</p>
       </div>
     );
   }

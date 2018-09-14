@@ -1,0 +1,17 @@
+.bodyDiv{
+    display: flex;
+    flex-direction: column;
+}
+.tab-list{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.bodyDiv>div{
+    margin-top: 50px;
+    align-self: center;
+}
+
+.bodyDiv>div>div:nth-child(2){
+    margin-top: 30px;
+}
