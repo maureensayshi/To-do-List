@@ -10,8 +10,7 @@ module.exports = {
     path: path.resolve(__dirname, "dist")
   },
   devServer: {
-    contentBase: "./dist",
-    historyApiFallback:{ index:"./src/index.html"}
+    contentBase: "./dist"
   },
   module: {
     rules: [

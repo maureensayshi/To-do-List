@@ -12,9 +12,9 @@ class Form extends Component{
             type="text"      
             onChange={(e) => this.props.handleChange(e)}
             value={this.props.inputValue}
-            placeholder="Enter Name"
+            placeholder="Enter your task here ......"
           />
-          <input disabled={!inEnabled} type="submit" value="Start Game" / >
+          <input disabled={!inEnabled} type="submit" value="" / >
         </form>
       </div>
     );
